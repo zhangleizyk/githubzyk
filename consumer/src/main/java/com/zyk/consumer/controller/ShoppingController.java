@@ -24,6 +24,7 @@ public class ShoppingController {
     public List<ShoppingBo> getShoppingList(ShoppingBo shoppingBo) {
 
         List<ShoppingBo> list = shoppingService.getShoppingList(shoppingBo);
+
         return list;
 
     }
