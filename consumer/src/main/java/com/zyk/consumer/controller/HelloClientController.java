@@ -16,7 +16,7 @@ public class HelloClientController {
     @Autowired
     private HelloClientService helloClientService;
 
-    @ApiOperation(value = "获取信息", notes = "获取信息")
+    @ApiOperation(value = "获取信息", notes = "获取信息1")
     @GetMapping("/getClient")
     public String getClient(){
         return helloClientService.getProduct();
